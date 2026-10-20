@@ -36,7 +36,7 @@ for (const dialog of document.querySelectorAll('dialog')) {
   status.setAttribute('aria-live', 'polite');
   dialog.append(status);
 }
-const cardUrl = () => new URL('.', window.location.href).href;
+const cardUrl = () => 'https://digital-biz-card.github.io/Alberto-Saab/';
 document.querySelector('#copy-link').addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(cardUrl());
