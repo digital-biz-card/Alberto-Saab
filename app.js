@@ -72,12 +72,4 @@ document.querySelector('#inquiry-form').addEventListener('submit', event => {
   const isiOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   window.location.href = buildInquiryUrl(Object.fromEntries(data), channel, isiOS);
 });
-// Keep the dock available after visitors scroll beyond the main save button.
-const primarySave = document.querySelector('.identity .save-contact');
-const dock = document.querySelector('.mobile-dock');
-if ('IntersectionObserver' in window) {
-  new IntersectionObserver(entries => {
-    dock.classList.toggle('is-hidden', entries[0].isIntersecting);
-  }, { threshold: 0.2 }).observe(primarySave);
-}
 document.querySelector('#year').textContent = new Date().getFullYear();
