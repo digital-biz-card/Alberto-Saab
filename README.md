@@ -1,23 +1,20 @@
-# Alberto Saab - GitHub Pages website
+# Alberto Saab - revised GitHub Pages card
 
-Upload all the contents of this folder to your GitHub repository root, keeping this structure:
+This revision follows Ghada's centered card layout in black and gold.
 
-```
-index.html
-styles.css
-app.js
-inquiry.js
-assets/
-.nojekyll
-README.md
-```
+Upload this folder's contents to the root of the Alberto-Saab repository. Keep index.html, styles.css, app.js, inquiry.js and assets/ together. No build command or installation is needed.
 
-Upload the complete assets folder, including its fonts, images, contact file, QR code and font licenses. Do not rename files or move index.html into a nested folder.
+If the previous website is already uploaded, replace index.html, styles.css and app.js. The existing assets and inquiry.js can stay as they are.
 
-Publish the repository root with GitHub Pages. No installation or build command is needed.
+Public URL: https://digital-biz-card.github.io/Alberto-Saab/
+The supplied assets/qr-code.png and sharing actions point to that URL. Save Contact separately downloads Alberto's vCard.
 
-The site uses relative paths, so it works at either a user site or a repository site URL. Contact sharing automatically uses the URL where the card is hosted. The QR code contains Alberto's contact details directly, so it works independently of the domain.
+The large architectural hero has been removed from the layout. All supplied contact details and branding remain in the card.
 
-Optional after publishing: for the most reliable WhatsApp and social-media link previews, replace the og:image value in index.html with the full public URL of assets/social-cover.jpg on your GitHub Pages website.
+Readability revision: enlarged typography throughout and increased the profile ring from 142px to 190px. Replace index.html and styles.css to apply it. Instagram, Facebook and YouTube links are configured. The business website is https://www.saabsquad.com/.
 
-The architectural hero image is conceptual, not an actual property listing, as stated on the card.
+Social revision: replace index.html, styles.css and assets/alberto-saab.vcf. The three supplied profiles appear in colored buttons, the footer and the saved contact.
+
+Website revision: www.saabsquad.com is linked prominently below the location badge, in Contact Details and in the downloadable contact. Replace index.html, styles.css and assets/alberto-saab.vcf.
+
+Latest type revision: enlarged Alberto's name, role, brokerage, license, location, service descriptions, service links and footer lettering. Replace index.html and styles.css for this revision. Text wrapping checked at 320px and 390px.
